@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Usuario</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos adicionales (opcional) -->
+  <style>
+    .form-container {
+      max-width: 400px;
+      margin: 50px auto;
+    }
+  </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 form-container">
+
+
+<h1>Registrer</h1>
+<form id="registerForm">
+    <div class="form-group">
+  <label>Name:</label>
+  <input type="text" id="registerNombres" class="form-control" required><br>
+  <label>Last Name:</label>
+  <input type="text" id="registerApellidos" class="form-control" required><br>
+  <label>Email:</label>
+  <input type="email" id="registerCorreo" class="form-control" required><br>
+  <label>Password:</label>
+  <input type="password" id="registerPassword" class="form-control" required><br>
+    </div>
+  <button type="submit" class="btn btn-primary" >Registrer</button>
+  <div id="message"></div>
+</form>
+
+            </div>
+        </div>
+    </div>
+<hr>
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <!-- Script personalizado -->
+  <script src="/src/assets/scripts/scriptRegis.js"></script>
+
+
+</body>
+</html>
